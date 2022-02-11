@@ -1,0 +1,24 @@
+{
+    "analytics": {
+        "enabled": true
+    },
+    "connect": {
+        "enabled": true,
+        "limit_user_tracking": false,
+        "player_opted_out": false
+    },
+    "dynamic": {
+        "analytics": {
+            "shouldCollectAutomation": true,
+            "timeToWaitForUserInfoS": 60
+        },
+        "coreBusinessMetrics": {
+            "enabled": true,
+            "timeToWaitForUserInfoS": 60
+        }
+    },
+    "performance": {
+        "enabled": true
+    },
+    "prefs": {}
+}
